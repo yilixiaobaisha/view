@@ -8,6 +8,8 @@
 #include "ChildFrm.h"
 #include "MFCDoc.h"
 #include "MFCView.h"
+#include "MyDocument.h"
+#include "MyFormView.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -73,6 +75,11 @@ BOOL CMFCApp::InitInstance()
 		RUNTIME_CLASS(CMFCDoc),
 		RUNTIME_CLASS(CChildFrame), // 自定义 MDI 子框架
 		RUNTIME_CLASS(CMFCView));
+	AddDocTemplate(pDocTemplate);
+	pDocTemplate = new CMultiDocTemplate(IDR_MFCTYPE,
+		RUNTIME_CLASS(CMyDocument),
+		RUNTIME_CLASS(CChildFrame), // 自定义 MDI 子框架
+		RUNTIME_CLASS(CMyFormView));
 	AddDocTemplate(pDocTemplate);
 	// 创建主 MDI 框架窗口
 	CMainFrame* pMainFrame = new CMainFrame;

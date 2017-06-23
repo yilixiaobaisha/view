@@ -118,6 +118,9 @@
 				RelativePath="ChildFrm.cpp">
 			</File>
 			<File
+				RelativePath="EditListCtrl.cpp">
+			</File>
+			<File
 				RelativePath="MFC.cpp">
 			</File>
 			<File
@@ -128,6 +131,15 @@
 			</File>
 			<File
 				RelativePath="MainFrm.cpp">
+			</File>
+			<File
+				RelativePath="MyDocument.cpp">
+			</File>
+			<File
+				RelativePath="MyFormView.cpp">
+			</File>
+			<File
+				RelativePath="MyListCtrl.cpp">
 			</File>
 			<File
 				RelativePath="stdafx.cpp">
@@ -152,6 +164,9 @@
 				RelativePath="ChildFrm.h">
 			</File>
 			<File
+				RelativePath="EditListCtrl.h">
+			</File>
+			<File
 				RelativePath="MFC.h">
 			</File>
 			<File
@@ -162,6 +177,15 @@
 			</File>
 			<File
 				RelativePath="MainFrm.h">
+			</File>
+			<File
+				RelativePath="MyDocument.h">
+			</File>
+			<File
+				RelativePath="MyFormView.h">
+			</File>
+			<File
+				RelativePath="MyListCtrl.h">
 			</File>
 			<File
 				RelativePath="Resource.h">
@@ -190,6 +214,12 @@
 			</File>
 			<File
 				RelativePath="res\Toolbar.bmp">
+			</File>
+			<File
+				RelativePath="res\cursor1.cur">
+			</File>
+			<File
+				RelativePath="res\cursor2.cur">
 			</File>
 		</Filter>
 		<File
